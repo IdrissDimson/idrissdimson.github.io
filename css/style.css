@@ -9,7 +9,14 @@ body {
 input {
   display: none;
 }
-
+button a {
+  text-decoration: none;
+  color: #000;
+}
+button a:hover{
+  color: #fff;
+  transition: 0.5s;
+}
 .open {
   background-color: #3c3c3c;
   width: 24px;
@@ -71,7 +78,7 @@ input {
   height: 100vh;
   top: 0;
   left: 0;
-  background: rgba(230, 230, 230, 0.9);
+  background: rgba(230, 230, 230, 0.95);
 }
 
 .menu label {
@@ -145,7 +152,7 @@ input {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 #menuToggle:checked ~ .menuOpen .open:after {
@@ -155,7 +162,7 @@ input {
   position: relative;
   top: 0;
   right: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 #menuToggle:not(:checked) ~ .menuEffects ul {
@@ -178,6 +185,7 @@ strong{
   align-items: center;
   justify-content: center;
   height: 400px;
+  margin-bottom: 10px;
 }
 .intro-section p {
   z-index: 1;
@@ -191,13 +199,10 @@ strong{
 }
 .project-section img{
   width: 480px;
-  height: 300px;
+  height: 250px;
 }
 .project-section div {
   padding: 25px;
-}
-.contact {
-  height: 20px;
 }
 button {
   padding: .55556rem;
@@ -221,8 +226,11 @@ button:hover{
   transition: 0.5s;
 }
 footer {
+  background-color: #dddddd;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .navigation__menu li strong {
   padding: 0;
