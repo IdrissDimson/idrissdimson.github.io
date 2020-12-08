@@ -18,7 +18,7 @@ button a:hover{
   transition: 0.5s;
 }
 .open {
-  background-color: #3c3c3c;
+  background-color: #fff;
   width: 24px;
   height: 4px;
   display: block;
@@ -30,7 +30,7 @@ button a:hover{
 
 .open:before {
   content: "";
-  background-color: #3c3c3c;
+  background-color: #fff;
   width: 24px;
   height: 4px;
   display: block;
@@ -43,7 +43,7 @@ button a:hover{
 
 .open:after {
   content: "";
-  background-color: #3c3c3c;
+  background-color: #fff;
   width: 24px;
   height: 4px;
   display: block;
@@ -78,7 +78,7 @@ button a:hover{
   height: 100vh;
   top: 0;
   left: 0;
-  background: rgba(230, 230, 230, 0.95);
+  background-color: rgba(15, 82, 186, 0.9);
 }
 
 .menu label {
@@ -108,7 +108,7 @@ button a:hover{
 
 .menu ul li a {
   display: block;
-  color: #3c3c3c;
+  color: #e7e7e7;
   text-decoration: none;
   transition: color 0.2s;
   text-transform: uppercase;
@@ -117,7 +117,7 @@ button a:hover{
 
 .menu ul li a:hover {
   transition: 0.5s;
-  color: #ff8702;
+  color: #fff;
 }
 
 .menuEffects {
@@ -147,7 +147,7 @@ button a:hover{
 
 #menuToggle:checked ~ .menuOpen .open:before {
   content: "";
-  background-color: #3c3c3c;
+  background-color: #fff;
   transform: rotate(45deg);
   position: absolute;
   top: 0;
@@ -157,7 +157,7 @@ button a:hover{
 
 #menuToggle:checked ~ .menuOpen .open:after {
   content: "";
-  background-color: #3c3c3c;
+  background-color: #fff;
   transform: rotate(-45deg);
   position: relative;
   top: 0;
@@ -169,12 +169,13 @@ button a:hover{
   transform: translateY(-30%);
 }
 .navigation{
-  background-color: #eeeeee;
+  background-color: #0f52ba;
   display: flex;
   align-items: center;
   height: 50px;
 }
-strong{
+.navigation strong{
+  color: #fff;
   font-size: 1.2rem;
   padding: 15px;
 }
@@ -185,7 +186,7 @@ strong{
   align-items: center;
   justify-content: center;
   height: 400px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 .intro-section p {
   z-index: 1;
@@ -197,36 +198,43 @@ strong{
   justify-content: center;
   height: 400px;
 }
+
 .project-section img{
-  width: 480px;
-  height: 250px;
+  width: 100%; 
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
 }
 .project-section div {
   padding: 25px;
+  margin: auto 0 auto 0;
+  height: 200px;
 }
 button {
   padding: .55556rem;
   background-color: #fff;
-  border: 1px solid #000;
+  border: 1px solid #0f52ba;
   margin: 0;
   font-family: 'Source Code Pro', monospace;
   outline: 0;
-  color: #000;
-  font-size: .88889rem;
+  font-size: .88rem;
   display: inline-block;
   text-align: center;
   transition: none;
   -moz-transition: none;
   -webkit-transition: none;
 }
+button a{
+  color: #0f52ba;
+}
 button:hover{
-  background-color: #000;
+  background-color: #0f52ba;
   cursor: pointer;
   color: #fff;
   transition: 0.5s;
 }
 footer {
-  background-color: #dddddd;
+  /* background-color: #0f52ba; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -243,7 +251,11 @@ footer {
       background-position: 110% 0
   }
 }
-
+#text {
+	display: inline-block;
+	color: #2980b9;
+	border-right: 3px solid #2980b9;
+}
 #top_clouds, #bottom_clouds{
   position: absolute;
   z-index: 0;
@@ -255,9 +267,24 @@ footer {
 }
 #top_clouds{
   animation: animatedBackground 10s linear infinite;
+  margin-bottom: 30px;
 }
 #bottom_clouds {
   height: 150px;
   background-color: transparent;
   animation: animatedBackground 20s linear infinite;
 } 
+.contact__link{
+  display: inline-block;
+  text-decoration: none;
+
+  font-size: 25px;
+  width: 25px;
+  height: 25px;
+  padding: 8px;
+  border-radius: 50%;
+
+  text-align: center;
+  background-color: #0f52ba;
+  color: #fff;
+}
