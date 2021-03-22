@@ -18,7 +18,7 @@ const GRAVITY = 1;
 
 function preload() {
   // create the font (from: https://www.dafont.com/8bit-wonder.font)
-  myFont = loadFont('data/8-BITWONDER.ttf');
+  myFont = loadFont('data/8-bitwonder.ttf');
   // create the sprites (8 bit social media: https://www.daddydesign.com/wordpress/8-bit-vector-social-icon-pack/)
   good_hourglass = loadImage('data/increase_time.png');
   bad_hourglass = loadImage('data/decrease_time.png');
