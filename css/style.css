@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
 
@@ -190,6 +191,7 @@ button a:hover{
 }
 .intro-section p {
   z-index: 1;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1.556rem;
   text-align: center;
 }
@@ -285,6 +287,6 @@ footer {
   border-radius: 50%;
 
   text-align: center;
-  background-color: #0f52ba;
-  color: #fff;
+  /* background-color: ; */
+  color: #0f52ba;
 }
