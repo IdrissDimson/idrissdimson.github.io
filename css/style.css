@@ -208,22 +208,23 @@ input {
   height: auto;
   border-radius: 10px;
 }
+
 .project-section div {
   width: 60%;
   padding: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   height: 200px;
+}
+.project-section .intro-description {
+  flex-direction: column;
 }
 .project-section div p{
   font-family: 'Krona One', sans-serif;
 }
 @media (max-width: 48em) {
-  .project-section .intro-picture{
-    width: 40%;
-  }
+  
   
   .project-section img{
     width: 100%; 
