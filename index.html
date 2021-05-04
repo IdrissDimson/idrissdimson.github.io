@@ -12,64 +12,58 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navigation" id="menuArea">
-      <strong>Idriss Dimson</strong>
-      <input type="checkbox" id="menuToggle"></input>
-      <label for="menuToggle" class="menuOpen">
-        <div class="open"></div>
-      </label>
-      <div class="menu menuEffects">
-        <label for="menuToggle"></label>
-        <div class="menuContent">
-          <ul class="navigation__menu" id="navFun">
-            <li><strong>Featured</strong></li>
-            <li><a href="screeech/index.html" class="navigation__link">Screech</a></li>
-            <li><a href="dinogame/index.html" class="navigation__link">Chrome Dino Run</a></li>
-            <li><a href="recipeapp/index.html" class="navigation__link">Recipe App</a></li>
-            <!-- <li><strong>Other Works (Page WIP)</strong></li>
-            <li><a href="#" class="navigation__link">Motion Capture</a></li>
-            <li><a href="#" class="navigation__link">Graphic Design</a></li> -->
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <header class="header">
+    <span class="logo">Idriss Dimson</span>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="" class="current">Works</a></li>
+      <li><a href="about.html" class="navigation__link">About</a></li>
+      <li><a href="https://drive.google.com/file/d/1iZucOMy9v2rShVx1tO32WWBfYrc3nv1C/view?usp=sharing" target="_blank" class="navigation__link">Résumé</a></li>
+    </ul>
   </header>
   <section class="section intro-section">
     <!-- Intro statement -->
     <div id="bottom_clouds"></div>
     <div id="top_clouds"></div>
-    <!-- <div id="text"></div> -->
-    <p> <strong>Hello!</strong><br>I'm Idriss Dimson, a web developer/graphic designer based in NYC<br></p>
+    <h1>Hello!</h1>
+    <p>I'm Idriss Dimson, a web developer/product designer based in NYC<br></p>
   </section>
   <section class="section project-section">
     <div class="intro-picture"><img src="assets/Screeech.png" alt="Screenshot of the Screeech website"></div>
     <div>
       <p>Screeech</p>
-      <button class="intro-button"><a href="screeech/index.html">View Case Study</a></button>
+      <a class="intro-button" href="screeech/index.html">View Case Study</a>
     </div>
   </section>
   <section class="section project-section">
     <div class="intro-picture"><img src="assets/DinoRun.png" alt="Screenshot of the Dino run game"></div>
     <div>
       <p>Chrome Dino Run</p>
-      <button class="intro-button"><a href="dinogame/index.html">View Case Study</a></button>
+      <a class="intro-button" href="dinogame/index.html">View Case Study</a>
     </div>
   </section>
   <section class="section project-section">
     <div class="intro-picture"><img src="assets/RecipeApp.png" alt="Screenshot of the Recipe app"></div>
     <div>
       <p>Recipe App</p>
-      <button class="intro-button"><a href="recipeapp/index.html">View Case Study</a></button>
+      <a class="intro-button" href="recipeapp/index.html">View Case Study</a>
     </div>
   </section>
   <footer class="contact">
-    <p class="contact__p"><a href="mailto:idriss.dimson@gmail.com" class="">Email Me!</a></p>
-    <p class="contact__p">
-      <a href="//www.twitter.com/idrissdimson" class="contact__link fab fa-twitter"></a>
-      <a href="//www.linkedin.com/in/idrissdimson/" class="contact__link fab fa-linkedin"></a>
-    </p>
+    <div class="contact__email">
+      <h3>Interested in working with me?</h3>
+      <p class="contact__p">
+        Send me an email at <a href="mailto:idriss.dimson@gmail.com" class="">idriss.dimson@gmail.com</a> if you're interested in talking about my work or
+        reach out to me on my social medias.
+      </p>
+    </div>
+    <div>
+      <p class="contact__p">
+        <a href="//www.twitter.com/idrissdimson" class="contact__link fab fa-twitter"></a>
+        <a href="//www.linkedin.com/in/idrissdimson/" class="contact__link fab fa-linkedin"></a>
+      </p>
+    </div>
   </footer>
 </body>
-
 </html>

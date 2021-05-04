@@ -8,28 +8,15 @@
   <link rel="stylesheet" type="text/css" href="../css/project.css">
 </head>
 <body>
-  <header>
-    <nav class="navigation" id="menuArea">
-      <strong><a href="../index.html">Idriss Dimson</a></strong>
-      <input type="checkbox" id="menuToggle"></input>
-      <label for="menuToggle" class="menuOpen">
-        <div class="open"></div>
-      </label>
-      <div class="menu menuEffects">
-        <label for="menuToggle"></label>
-        <div class="menuContent">
-          <ul class="navigation__menu" id="navFun">
-            <li><strong>Featured</strong></li>
-            <li><a href="../screeech/index.html" class="navigation__link">Screech</a></li>
-            <li>Chrome Dino Run</li>
-            <li><a href="../recipeapp/index.html" class="navigation__link">Recipe App</a></li>
-            <!-- <li><strong>Other Works</strong></li>
-            <li><a href="#" class="navigation__link">Motion Capture</a></li>
-            <li><a href="#" class="navigation__link">Graphic Design</a></li> -->
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <header class="header">
+    <span class="logo">Idriss Dimson</span>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="../index.html" class="navigation__link">Works</a></li>
+      <li><a href="../about.html" class="navigation__link">About</a></li>
+      <li><a href="https://drive.google.com/file/d/1iZucOMy9v2rShVx1tO32WWBfYrc3nv1C/view?usp=sharing" target="_blank" class="navigation__link">Résumé</a></li>
+    </ul>
   </header>
   <section class="intro-project intro-project-dino">
     <div class="dino-text">
@@ -38,17 +25,25 @@
     </div>
   </section>
   <section class="section">
-    <h2>This project, started as an final class project, explored the idea of what happens to the Chrome Offline Dino after the internet comes back on</h2>
+    <h2>This project, started as an final class project, explored the idea of what happens to the Chrome Offline Dino after the internet comes back on.</h2>
     <p>The player controls the dino using the keyboard and tries to survive as long as possible until the Dino runs out of time. When the timer is reached, our beloved dino is taken out by the "internet asteroid" and goes extinct, waiting until the internet comes back on.</p>
     <p>The first and current iteration of this game uses p5.js, a Processing port made by the ITP department in NYU. The sprites were recreated by me, credits to the original designs for the dino by the Google Chrome team.</p>
-    <button class="intro-button"><a href="game.html">Play Game Here</a></button>
+    <a class="intro-button" href="game.html">Play Game Here</a>
   </section>
   <footer class="contact">
-    <p class="contact__p"><a href="mailto:idriss.dimson@gmail.com" class="">Email Me!</a></p>
-    <p class="contact__p">
-      <a href="//www.twitter.com/idrissdimson" class="contact__link fab fa-twitter"></a>
-      <a href="//www.linkedin.com/in/idrissdimson/" class="contact__link fab fa-linkedin"></a>
-    </p>
+    <div class="contact__email">
+      <h3>Interested in working with me?</h3>
+      <p class="contact__p">
+        Send me an email at <a href="mailto:idriss.dimson@gmail.com" class="">idriss.dimson@gmail.com</a> if you're interested in talking about my work or
+        reach out to me on my social medias.
+      </p>
+    </div>
+    <div>
+      <p class="contact__p">
+        <a href="//www.twitter.com/idrissdimson" class="contact__link fab fa-twitter"></a>
+        <a href="//www.linkedin.com/in/idrissdimson/" class="contact__link fab fa-linkedin"></a>
+      </p>
+    </div>
   </footer>
 </body>
 </html>

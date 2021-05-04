@@ -12,8 +12,12 @@ nav a {
   width: 70%;
   margin: 0 auto;
 }
+.section h2 {
+  font-family: 'Krona One', sans-serif;
+}
 .section p {
-  color: #6e6e6e;
+  color: #111;
+  font-weight: bold;
 }
 footer {
   margin-top: 25px;
@@ -25,6 +29,7 @@ footer {
 .screech-text{
   width: 100%;
   height: 100%;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,6 +37,7 @@ footer {
   background-color: rgba(210, 110, 30, 0.6);
 }
 .screech-text h1 {
+  font-family: 'Krona One', sans-serif;
   font-size: 2rem;
 }
 .intro-project-dino{
@@ -41,14 +47,16 @@ footer {
 .dino-text{
   width: 100%;
   height: 100%;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(230, 230, 230, 0.6);
+  background-color: rgba(210, 110, 30, 0.6);
 }
 .dino-text h1 {
-  font-size: 2rem;
+  font-family: 'Krona One', sans-serif;
+  font-size: 3rem;
 }
 .intro-project-recipe{
   background-image: url(../assets/RecipeApp.png);
@@ -62,8 +70,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 0, 0, 0.6);
+  background-color: rgba(210, 110, 30, 0.6);
 }
-.dino-text h1 {
+.recipe-text h1 {
+  font-family: 'Krona One', sans-serif;
   font-size: 2rem;
 }
